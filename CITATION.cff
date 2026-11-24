@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this workflow, please cite it as below and cite the paper."
+title: "OnSSET x AETOS soft-link workflow"
+type: software
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/TODO/TODO"   # TODO: URL of this repository
+authors:
+  - family-names: "Martínez-Rodríguez"
+    given-names: "Lucas"
+    orcid: "https://orcid.org/0000-0002-2948-5537"
+    affiliation: "Energy Engineering Institute, Universitat Politècnica de València, Spain"
+  - family-names: "Salas Salazar"
+    given-names: "Manuel Enrique"
+    orcid: "https://orcid.org/0000-0001-9409-3954"
+    affiliation: "Energy Systems, KTH Royal Institute of Technology, Sweden"
+  - family-names: "Ribó-Pérez"
+    given-names: "David"
+    orcid: "https://orcid.org/0000-0003-1089-5197"
+    affiliation: "Energy Engineering Institute, Universitat Politècnica de València, Spain"
+  - family-names: "Gómez-Navarro"
+    given-names: "Tomás"
+    orcid: "https://orcid.org/0000-0001-6114-2414"
+    affiliation: "Energy Engineering Institute, Universitat Politècnica de València, Spain"
+  - family-names: "Ramirez Gomez"
+    given-names: "Camilo"
+    orcid: "https://orcid.org/0000-0002-7217-3838"
+    affiliation: "Energy Systems, KTH Royal Institute of Technology, Sweden"
+  - family-names: "Fuso Nerini"
+    given-names: "Francesco"
+    orcid: "https://orcid.org/0000-0002-4770-4051"
+    affiliation: "Energy Systems, KTH Royal Institute of Technology, Sweden"
+# preferred-citation: add the paper (title, journal, year, DOI) once available

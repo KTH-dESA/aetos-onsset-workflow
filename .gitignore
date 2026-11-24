@@ -1,0 +1,23 @@
+# workflow outputs and staged data (large, regenerated)
+runs/
+runs_cap_v1/
+onsset/
+config.yaml
+data/*
+!data/aetos_africa_pn/
+!data/ct_technology_groups.csv
+!data/carbon_price_wb_high_2021usd.csv
+*.lp
+*.sol
+*.gz
+*.shp
+# python / editors
+__pycache__/
+*.pyc
+.snakemake/
+.vscode/
+~$*
+# local notes and manuscripts
+NOTES.md
+*.docx
+*.pdf

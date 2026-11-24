@@ -1,0 +1,1351 @@
+technology,country,family,group,has_capital_cost,has_fixed_cost,has_variable_cost,comment
+DZBACKSTOP,DZ,BAC,none,True,False,True,backstop
+AOBACKSTOP,AO,BAC,none,True,False,True,backstop
+BJBACKSTOP,BJ,BAC,none,True,False,True,backstop
+BWBACKSTOP,BW,BAC,none,True,False,True,backstop
+BFBACKSTOP,BF,BAC,none,True,False,True,backstop
+BIBACKSTOP,BI,BAC,none,True,False,True,backstop
+CMBACKSTOP,CM,BAC,none,True,False,True,backstop
+CFBACKSTOP,CF,BAC,none,True,False,True,backstop
+TDBACKSTOP,TD,BAC,none,True,False,True,backstop
+CIBACKSTOP,CI,BAC,none,True,False,True,backstop
+DJBACKSTOP,DJ,BAC,none,True,False,True,backstop
+CDBACKSTOP,CD,BAC,none,True,False,True,backstop
+EGBACKSTOP,EG,BAC,none,True,False,True,backstop
+GQBACKSTOP,GQ,BAC,none,True,False,True,backstop
+ERBACKSTOP,ER,BAC,none,True,False,True,backstop
+SZBACKSTOP,SZ,BAC,none,True,False,True,backstop
+ETBACKSTOP,ET,BAC,none,True,False,True,backstop
+GABACKSTOP,GA,BAC,none,True,False,True,backstop
+GMBACKSTOP,GM,BAC,none,True,False,True,backstop
+GHBACKSTOP,GH,BAC,none,True,False,True,backstop
+GNBACKSTOP,GN,BAC,none,True,False,True,backstop
+GWBACKSTOP,GW,BAC,none,True,False,True,backstop
+KEBACKSTOP,KE,BAC,none,True,False,True,backstop
+LSBACKSTOP,LS,BAC,none,True,False,True,backstop
+LRBACKSTOP,LR,BAC,none,True,False,True,backstop
+LYBACKSTOP,LY,BAC,none,True,False,True,backstop
+MWBACKSTOP,MW,BAC,none,True,False,True,backstop
+MLBACKSTOP,ML,BAC,none,True,False,True,backstop
+MRBACKSTOP,MR,BAC,none,True,False,True,backstop
+MABACKSTOP,MA,BAC,none,True,False,True,backstop
+MZBACKSTOP,MZ,BAC,none,True,False,True,backstop
+NABACKSTOP,NA,BAC,none,True,False,True,backstop
+NEBACKSTOP,NE,BAC,none,True,False,True,backstop
+NGBACKSTOP,NG,BAC,none,True,False,True,backstop
+CGBACKSTOP,CG,BAC,none,True,False,True,backstop
+RWBACKSTOP,RW,BAC,none,True,False,True,backstop
+SNBACKSTOP,SN,BAC,none,True,False,True,backstop
+SLBACKSTOP,SL,BAC,none,True,False,True,backstop
+SOBACKSTOP,SO,BAC,none,True,False,True,backstop
+ZABACKSTOP,ZA,BAC,none,True,False,True,backstop
+SSBACKSTOP,SS,BAC,none,True,False,True,backstop
+SDBACKSTOP,SD,BAC,none,True,False,True,backstop
+TZBACKSTOP,TZ,BAC,none,True,False,True,backstop
+TGBACKSTOP,TG,BAC,none,True,False,True,backstop
+TNBACKSTOP,TN,BAC,none,True,False,True,backstop
+UGBACKSTOP,UG,BAC,none,True,False,True,backstop
+ZMBACKSTOP,ZM,BAC,none,True,False,True,backstop
+ZWBACKSTOP,ZW,BAC,none,True,False,True,backstop
+DZSO00I00,DZ,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+EGBM00I00,EG,BM0,none,False,False,True,"fuel import/extraction or other, not scaled"
+EGSO00I00,EG,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+EGWI00I00,EG,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+LYLF00I00,LY,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+LYHF00I00,LY,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+LYSO00I00,LY,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+MASO00I00,MA,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+MAWI00I00,MA,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+SDSO00I00,SD,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+TNSO00I00,TN,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+AOSO00I00,AO,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+BJSO00I00,BJ,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+BFLF00I00,BF,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+BFHF00I00,BF,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+BFHY00I00,BF,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+BFSO00I00,BF,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+BIHY00I00,BI,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+CMHY00I00,CM,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+CMSO00I00,CM,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+CFSO00I00,CF,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+CISO00I00,CI,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+CDLF00I00,CD,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+CDHF00I00,CD,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+CDHY00I00,CD,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+CDSO00I00,CD,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+DJWI00I00,DJ,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+ETBM00I00,ET,BM0,none,False,False,True,"fuel import/extraction or other, not scaled"
+ETHY00I00,ET,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+ETWI00I00,ET,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+GHSO00I00,GH,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+KEGO00I00,KE,GO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+KEHY00I00,KE,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+KESO00I00,KE,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+LSSO00I00,LS,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+MWSO00I00,MW,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+MLHY00I00,ML,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+MLSO00I00,ML,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+MRSO00I00,MR,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+MRWI00I00,MR,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+MZLF00I00,MZ,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+MZHF00I00,MZ,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+MZSO00I00,MZ,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+NASO00I00,NA,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+NELF00I00,NE,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+NEHF00I00,NE,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+NESO00I00,NE,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+NGLF00I00,NG,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+NGHF00I00,NG,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+NGHY00I00,NG,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+NGSO00I00,NG,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+RWCO00I00,RW,CO0,none,False,False,True,"fuel import/extraction or other, not scaled"
+SNLF00I00,SN,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+SNHF00I00,SN,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+SNSO00I00,SN,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+ZANU00I00,ZA,NU0,none,False,False,True,"fuel import/extraction or other, not scaled"
+ZASO00I00,ZA,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+SSWI00I00,SS,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+TGSO00I00,TG,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+UGHY00I00,UG,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+TZSO00I00,TZ,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+ZMHY00I00,ZM,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+ZWSO00I00,ZW,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+ZWCO00I00,ZW,CO0,none,False,False,True,"fuel import/extraction or other, not scaled"
+DZLF00I00,DZ,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+DZHF00I00,DZ,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+DZHY00I00,DZ,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+EGLF00I00,EG,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+EGHF00I00,EG,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+EGHY00I00,EG,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+MACO00I00,MA,CO0,none,False,False,True,"fuel import/extraction or other, not scaled"
+MALF00I00,MA,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+MAHF00I00,MA,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+MABM00I00,MA,BM0,none,False,False,True,"fuel import/extraction or other, not scaled"
+MAHY00I00,MA,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+SDLF00I00,SD,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+SDHF00I00,SD,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+SDBM00I00,SD,BM0,none,False,False,True,"fuel import/extraction or other, not scaled"
+SDHY00I00,SD,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+TNLF00I00,TN,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+TNHF00I00,TN,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+TNHY00I00,TN,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+TNWI00I00,TN,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+AOLF00I00,AO,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+AOHF00I00,AO,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+AOBM00I00,AO,BM0,none,False,False,True,"fuel import/extraction or other, not scaled"
+AOHY00I00,AO,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+BJLF00I00,BJ,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+BJHF00I00,BJ,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+BJHY00I00,BJ,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+BWCO00I00,BW,CO0,none,False,False,True,"fuel import/extraction or other, not scaled"
+BWLF00I00,BW,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+BWSO00I00,BW,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+BFBM00I00,BF,BM0,none,False,False,True,"fuel import/extraction or other, not scaled"
+BILF00I00,BI,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+BISO00I00,BI,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+CMLF00I00,CM,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+CMHF00I00,CM,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+CFLF00I00,CF,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+CFHY00I00,CF,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+TDLF00I00,TD,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+TDHF00I00,TD,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+TDBM00I00,TD,BM0,none,False,False,True,"fuel import/extraction or other, not scaled"
+TDSO00I00,TD,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+CGLF00I00,CG,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+CGHF00I00,CG,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+CGBM00I00,CG,BM0,none,False,False,True,"fuel import/extraction or other, not scaled"
+CGHY00I00,CG,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+CILF00I00,CI,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+CIHF00I00,CI,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+CIHY00I00,CI,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+DJLF00I00,DJ,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+DJHF00I00,DJ,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+GQLF00I00,GQ,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+GQHF00I00,GQ,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+GQHY00I00,GQ,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+ERLF00I00,ER,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+ERHF00I00,ER,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+SZLF00I00,SZ,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+SZHF00I00,SZ,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+SZBM00I00,SZ,BM0,none,False,False,True,"fuel import/extraction or other, not scaled"
+SZHY00I00,SZ,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+SZSO00I00,SZ,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+ETLF00I00,ET,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+ETGO00I00,ET,GO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+GALF00I00,GA,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+GAHF00I00,GA,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+GAHY00I00,GA,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+GMLF00I00,GM,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+GMHF00I00,GM,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+GMWI00I00,GM,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+GMSO00I00,GM,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+GAWI00I00,GA,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+GHLF00I00,GH,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+GHHF00I00,GH,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+GHBM00I00,GH,BM0,none,False,False,True,"fuel import/extraction or other, not scaled"
+GHHY00I00,GH,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+GNLF00I00,GN,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+GNHF00I00,GN,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+GNHY00I00,GN,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+GNSO00I00,GN,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+GWLF00I00,GW,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+KELF00I00,KE,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+KEHF00I00,KE,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+KEBM00I00,KE,BM0,none,False,False,True,"fuel import/extraction or other, not scaled"
+KEWI00I00,KE,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+LSHY00I00,LS,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+LRLF00I00,LR,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+LRHF00I00,LR,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+LRHY00I00,LR,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+MWLF00I00,MW,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+MWBM00I00,MW,BM0,none,False,False,True,"fuel import/extraction or other, not scaled"
+MWHY00I00,MW,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+MLLF00I00,ML,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+MLHF00I00,ML,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+MLBM00I00,ML,BM0,none,False,False,True,"fuel import/extraction or other, not scaled"
+MRLF00I00,MR,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+MRHF00I00,MR,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+MZBM00I00,MZ,BM0,none,False,False,True,"fuel import/extraction or other, not scaled"
+MZHY00I00,MZ,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+NACO00I00,NA,CO0,none,False,False,True,"fuel import/extraction or other, not scaled"
+NALF00I00,NA,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+NAHF00I00,NA,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+NABM00I00,NA,BM0,none,False,False,True,"fuel import/extraction or other, not scaled"
+NAHY00I00,NA,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+NAWI00I00,NA,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+NECO00I00,NE,CO0,none,False,False,True,"fuel import/extraction or other, not scaled"
+NGBM00I00,NG,BM0,none,False,False,True,"fuel import/extraction or other, not scaled"
+RWWI00I00,RW,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+RWLF00I00,RW,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+RWHF00I00,RW,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+RWBM00I00,RW,BM0,none,False,False,True,"fuel import/extraction or other, not scaled"
+RWHY00I00,RW,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+SNHY00I00,SN,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+SNCO00I00,SN,CO0,none,False,False,True,"fuel import/extraction or other, not scaled"
+SNBM00I00,SN,BM0,none,False,False,True,"fuel import/extraction or other, not scaled"
+SLWI00I00,SL,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+SLLF00I00,SL,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+SLHF00I00,SL,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+SLBM00I00,SL,BM0,none,False,False,True,"fuel import/extraction or other, not scaled"
+SLHY00I00,SL,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+ZACO00I00,ZA,CO0,none,False,False,True,"fuel import/extraction or other, not scaled"
+ZALF00I00,ZA,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+ZAHF00I00,ZA,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+ZABM00I00,ZA,BM0,none,False,False,True,"fuel import/extraction or other, not scaled"
+ZAHY00I00,ZA,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+SSLF00I00,SS,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+SSHF00I00,SS,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+TGLF00I00,TG,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+TGHF00I00,TG,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+TGHY00I00,TG,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+UGSO00I00,UG,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+UGLF00I00,UG,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+UGHF00I00,UG,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+UGBM00I00,UG,BM0,none,False,False,True,"fuel import/extraction or other, not scaled"
+TZLF00I00,TZ,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+TZHF00I00,TZ,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+TZBM00I00,TZ,BM0,none,False,False,True,"fuel import/extraction or other, not scaled"
+TZHY00I00,TZ,HY0,none,False,False,False,"fuel import/extraction or other, not scaled"
+ZMWI00I00,ZM,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+ZMCO00I00,ZM,CO0,none,False,False,True,"fuel import/extraction or other, not scaled"
+ZMLF00I00,ZM,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+ZMHF00I00,ZM,HF0,none,False,False,True,"fuel import/extraction or other, not scaled"
+ZMBM00I00,ZM,BM0,none,False,False,True,"fuel import/extraction or other, not scaled"
+ZWLF00I00,ZW,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+AOWI00I00,AO,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+BFWI00I00,BF,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+BIWI00I00,BI,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+BJWI00I00,BJ,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+BWWI00I00,BW,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+CDWI00I00,CD,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+CFWI00I00,CF,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+CGSO00I00,CG,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+CGWI00I00,CG,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+CIWI00I00,CI,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+CMWI00I00,CM,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+DJSO00I00,DJ,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+DZWI00I00,DZ,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+ERSO00I00,ER,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+ERWI00I00,ER,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+ETSO00I00,ET,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+GASO00I00,GA,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+GHWI00I00,GH,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+GNWI00I00,GN,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+GQSO00I00,GQ,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+GQWI00I00,GQ,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+GWSO00I00,GW,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+GWWI00I00,GW,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+LRSO00I00,LR,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+LRWI00I00,LR,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+LSWI00I00,LS,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+LYWI00I00,LY,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+MLWI00I00,ML,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+MWWI00I00,MW,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+MZWI00I00,MZ,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+NEWI00I00,NE,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+NGWI00I00,NG,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+RWSO00I00,RW,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+SDWI00I00,SD,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+SLSO00I00,SL,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+SNWI00I00,SN,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+SOSO00I00,SO,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+SOWI00I00,SO,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+SSSO00I00,SS,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+SZWI00I00,SZ,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+TDWI00I00,TD,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+TGWI00I00,TG,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+TZWI00I00,TZ,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+UGWI00I00,UG,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+ZAWI00I00,ZA,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+ZMSO00I00,ZM,SO0,none,False,False,False,"fuel import/extraction or other, not scaled"
+ZWWI00I00,ZW,WI0,none,False,False,False,"fuel import/extraction or other, not scaled"
+SOLF00I00,SO,LF0,diesel_fuel,False,False,True,diesel/light fuel import; VariableCost = fuel price -> 'Diesel OPEX'
+DZEL00T00,DZ,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+AOEL00T00,AO,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+BJEL00T00,BJ,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+BWEL00T00,BW,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+BFEL00T00,BF,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+BIEL00T00,BI,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+CMEL00T00,CM,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+CFEL00T00,CF,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+TDEL00T00,TD,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+CIEL00T00,CI,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+DJEL00T00,DJ,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+CDEL00T00,CD,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+EGEL00T00,EG,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+GQEL00T00,GQ,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+EREL00T00,ER,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+SZEL00T00,SZ,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+ETEL00T00,ET,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+GAEL00T00,GA,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+GMEL00T00,GM,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+GHEL00T00,GH,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+GNEL00T00,GN,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+GWEL00T00,GW,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+KEEL00T00,KE,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+LSEL00T00,LS,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+LREL00T00,LR,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+LYEL00T00,LY,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+MWEL00T00,MW,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+MLEL00T00,ML,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+MREL00T00,MR,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+MAEL00T00,MA,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+MZEL00T00,MZ,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+NAEL00T00,NA,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+NEEL00T00,NE,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+NGEL00T00,NG,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+CGEL00T00,CG,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+RWEL00T00,RW,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+SNEL00T00,SN,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+SLEL00T00,SL,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+SOEL00T00,SO,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+ZAEL00T00,ZA,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+SSEL00T00,SS,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+SDEL00T00,SD,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+TZEL00T00,TZ,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+TGEL00T00,TG,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+TNEL00T00,TN,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+UGEL00T00,UG,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+ZMEL00T00,ZM,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+ZWEL00T00,ZW,EL0,transmission,False,False,False,"E1->E2, carries no cost in AETOS"
+DZEL00D00,DZ,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+AOEL00D00,AO,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+BJEL00D00,BJ,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+BWEL00D00,BW,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+BFEL00D00,BF,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+BIEL00D00,BI,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+CMEL00D00,CM,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+CFEL00D00,CF,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+TDEL00D00,TD,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+CIEL00D00,CI,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+DJEL00D00,DJ,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+CDEL00D00,CD,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+EGEL00D00,EG,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+GQEL00D00,GQ,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+EREL00D00,ER,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+SZEL00D00,SZ,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+ETEL00D00,ET,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+GAEL00D00,GA,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+GMEL00D00,GM,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+GHEL00D00,GH,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+GNEL00D00,GN,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+GWEL00D00,GW,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+KEEL00D00,KE,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+LSEL00D00,LS,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+LREL00D00,LR,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+LYEL00D00,LY,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+MWEL00D00,MW,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+MLEL00D00,ML,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+MREL00D00,MR,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+MAEL00D00,MA,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+MZEL00D00,MZ,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+NAEL00D00,NA,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+NEEL00D00,NE,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+NGEL00D00,NG,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+CGEL00D00,CG,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+RWEL00D00,RW,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+SNEL00D00,SN,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+SLEL00D00,SL,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+SOEL00D00,SO,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+ZAEL00D00,ZA,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+SSEL00D00,SS,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+SDEL00D00,SD,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+TZEL00D00,TZ,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+TGEL00D00,TG,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+TNEL00D00,TN,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+UGEL00D00,UG,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+ZMEL00D00,ZM,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+ZWEL00D00,ZW,EL0,distribution,False,False,False,"E2->E3, carries no cost in AETOS"
+DZNGCCPH1,DZ,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+DZNGGCPH1,DZ,NGG,grid_thermal,True,True,True,gas turbine
+DZSOU1PH1,DZ,SOU,renewable,True,True,False,utility solar PV
+EGBMCHPH1,EG,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+EGSOU1PH1,EG,SOU,renewable,True,True,False,utility solar PV
+EGWINDPH1,EG,WIN,renewable,True,True,True,wind
+LYNGCCPH1,LY,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+LYNGGCPH1,LY,NGG,grid_thermal,True,True,True,gas turbine
+LYLFRCPH1,LY,LFR,diesel,True,True,True,light fuel oil / diesel generation
+LYHFGCPH1,LY,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+LYSOU1PH1,LY,SOU,renewable,True,True,False,utility solar PV
+MASOU1PH1,MA,SOU,renewable,True,True,False,utility solar PV
+MAWINDPH1,MA,WIN,renewable,True,True,True,wind
+SDSOU1PH1,SD,SOU,renewable,True,True,False,utility solar PV
+TNNGCCPH1,TN,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+TNNGGCPH1,TN,NGG,grid_thermal,True,True,True,gas turbine
+TNSOU1PH1,TN,SOU,renewable,True,True,False,utility solar PV
+AOSOU1PH1,AO,SOU,renewable,True,True,False,utility solar PV
+BJSOU1PH1,BJ,SOU,renewable,True,True,False,utility solar PV
+BFLFRCPH1,BF,LFR,diesel,True,True,True,light fuel oil / diesel generation
+BFHFGCPH1,BF,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+BFHYDMSH1,BF,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+BFSOU1PH1,BF,SOU,renewable,True,True,False,utility solar PV
+BIHYDMSH1,BI,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+CMHYDMSH1,CM,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+CMSOU1PH1,CM,SOU,renewable,True,True,False,utility solar PV
+CFSOU1PH1,CF,SOU,renewable,True,True,False,utility solar PV
+CINGCCPH1,CI,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+CINGGCPH1,CI,NGG,grid_thermal,True,True,True,gas turbine
+CISOU1PH1,CI,SOU,renewable,True,True,False,utility solar PV
+CDLFRCPH1,CD,LFR,diesel,True,True,True,light fuel oil / diesel generation
+CDHFGCPH1,CD,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+CDHYDMSH1,CD,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+CDSOU1PH1,CD,SOU,renewable,True,True,False,utility solar PV
+DJWINDPH1,DJ,WIN,renewable,True,True,True,wind
+ETBMCHPH1,ET,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+ETHYDMSH1,ET,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+ETWINDPH1,ET,WIN,renewable,True,True,True,wind
+GHNGCCPH1,GH,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+GHNGGCPH1,GH,NGG,grid_thermal,True,True,True,gas turbine
+GHSOU1PH1,GH,SOU,renewable,True,True,False,utility solar PV
+KEGOCVPH1,KE,GOC,renewable,True,True,True,geothermal
+KEHYDMSH1,KE,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+KESOU1PH1,KE,SOU,renewable,True,True,False,utility solar PV
+LSSOU1PH1,LS,SOU,renewable,True,True,False,utility solar PV
+MWSOU1PH1,MW,SOU,renewable,True,True,False,utility solar PV
+MLHYDMSH1,ML,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+MLSOU1PH1,ML,SOU,renewable,True,True,False,utility solar PV
+MRSOU1PH1,MR,SOU,renewable,True,True,False,utility solar PV
+MRWINDPH1,MR,WIN,renewable,True,True,True,wind
+MZLFRCPH1,MZ,LFR,diesel,True,True,True,light fuel oil / diesel generation
+MZHFGCPH1,MZ,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+MZSOU1PH1,MZ,SOU,renewable,True,True,False,utility solar PV
+NASOU1PH1,NA,SOU,renewable,True,True,False,utility solar PV
+NELFRCPH1,NE,LFR,diesel,True,True,True,light fuel oil / diesel generation
+NEHFGCPH1,NE,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+NESOU1PH1,NE,SOU,renewable,True,True,False,utility solar PV
+NGNGCCPH1,NG,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+NGNGGCPH1,NG,NGG,grid_thermal,True,True,True,gas turbine
+NGLFRCPH1,NG,LFR,diesel,True,True,True,light fuel oil / diesel generation
+NGHFGCPH1,NG,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+NGHYDMSH1,NG,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+NGSOU1PH1,NG,SOU,renewable,True,True,False,utility solar PV
+RWCOSCPH1,RW,COS,grid_thermal,True,True,True,coal
+SNNGCCPH1,SN,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+SNLFRCPH1,SN,LFR,diesel,True,True,True,light fuel oil / diesel generation
+SNHFGCPH1,SN,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+SNSOU1PH1,SN,SOU,renewable,True,True,False,utility solar PV
+ZANULWPH1,ZA,NUL,grid_thermal,True,True,True,nuclear
+ZASOU1PH1,ZA,SOU,renewable,True,True,False,utility solar PV
+SSWINDPH1,SS,WIN,renewable,True,True,True,wind
+TGSOU1PH1,TG,SOU,renewable,True,True,False,utility solar PV
+UGHYDMSH1,UG,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+TZSOU1PH1,TZ,SOU,renewable,True,True,False,utility solar PV
+ZMHYDMSH1,ZM,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+ZWSOU1PH1,ZW,SOU,renewable,True,True,False,utility solar PV
+ZWCOSCPH1,ZW,COS,grid_thermal,True,True,True,coal
+DZLFRCPH1,DZ,LFR,diesel,True,True,True,light fuel oil / diesel generation
+DZHFGCPH1,DZ,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+DZHYDMSH1,DZ,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+DZSOC1PH1,DZ,SOC,renewable,True,True,True,concentrated solar
+EGNGCCPH1,EG,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+EGNGGCPH1,EG,NGG,grid_thermal,True,True,True,gas turbine
+EGLFRCPH1,EG,LFR,diesel,True,True,True,light fuel oil / diesel generation
+EGHFGCPH1,EG,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+EGHYDMSH1,EG,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+EGSOC1PH1,EG,SOC,renewable,True,True,True,concentrated solar
+MACOSCPH1,MA,COS,grid_thermal,True,True,True,coal
+MALFRCPH1,MA,LFR,diesel,True,True,True,light fuel oil / diesel generation
+MAHFGCPH1,MA,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+MANGCCPH1,MA,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+MANGGCPH1,MA,NGG,grid_thermal,True,True,True,gas turbine
+MABMCHPH1,MA,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+MAHYDMSH1,MA,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+MASOC1PH1,MA,SOC,renewable,True,True,True,concentrated solar
+SDLFRCPH1,SD,LFR,diesel,True,True,True,light fuel oil / diesel generation
+SDHFGCPH1,SD,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+SDBMCHPH1,SD,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+SDHYDMSH1,SD,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+TNLFRCPH1,TN,LFR,diesel,True,True,True,light fuel oil / diesel generation
+TNHFGCPH1,TN,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+TNHYDMSH1,TN,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+TNWINDPH1,TN,WIN,renewable,True,True,True,wind
+AONGGCPH1,AO,NGG,grid_thermal,True,True,True,gas turbine
+AOLFRCPH1,AO,LFR,diesel,True,True,True,light fuel oil / diesel generation
+AOHFGCPH1,AO,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+AOBMCHPH1,AO,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+AOHYDMSH1,AO,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+BJNGGCPH1,BJ,NGG,grid_thermal,True,True,True,gas turbine
+BJLFRCPH1,BJ,LFR,diesel,True,True,True,light fuel oil / diesel generation
+BJHFGCPH1,BJ,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+BJHYDMSH1,BJ,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+BWCOSCPH1,BW,COS,grid_thermal,True,True,True,coal
+BWLFRCPH1,BW,LFR,diesel,True,True,True,light fuel oil / diesel generation
+BWSOU1PH1,BW,SOU,renewable,True,True,False,utility solar PV
+BFBMCHPH1,BF,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+BILFRCPH1,BI,LFR,diesel,True,True,True,light fuel oil / diesel generation
+BISOU1PH1,BI,SOU,renewable,True,True,False,utility solar PV
+CMNGGCPH1,CM,NGG,grid_thermal,True,True,True,gas turbine
+CMLFRCPH1,CM,LFR,diesel,True,True,True,light fuel oil / diesel generation
+CMHFGCPH1,CM,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+CFLFRCPH1,CF,LFR,diesel,True,True,True,light fuel oil / diesel generation
+CFHYDMSH1,CF,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+TDNGCCPH1,TD,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+TDLFRCPH1,TD,LFR,diesel,True,True,True,light fuel oil / diesel generation
+TDHFGCPH1,TD,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+TDBMCHPH1,TD,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+TDSOU1PH1,TD,SOU,renewable,True,True,False,utility solar PV
+CGNGGCPH1,CG,NGG,grid_thermal,True,True,True,gas turbine
+CGLFRCPH1,CG,LFR,diesel,True,True,True,light fuel oil / diesel generation
+CGHFGCPH1,CG,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+CGBMCHPH1,CG,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+CGHYDMSH1,CG,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+CILFRCPH1,CI,LFR,diesel,True,True,True,light fuel oil / diesel generation
+CIHFGCPH1,CI,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+CIHYDMSH1,CI,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+DJLFRCPH1,DJ,LFR,diesel,True,True,True,light fuel oil / diesel generation
+DJHFGCPH1,DJ,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+GWNGCCPH1,GW,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+GQNGGCPH1,GQ,NGG,grid_thermal,True,True,True,gas turbine
+GQLFRCPH1,GQ,LFR,diesel,True,True,True,light fuel oil / diesel generation
+GQHFGCPH1,GQ,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+GQHYDMSH1,GQ,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+ERLFRCPH1,ER,LFR,diesel,True,True,True,light fuel oil / diesel generation
+ERHFGCPH1,ER,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+SZLFRCPH1,SZ,LFR,diesel,True,True,True,light fuel oil / diesel generation
+SZHFGCPH1,SZ,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+SZBMCHPH1,SZ,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+SZHYDMSH1,SZ,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+SZSOU1PH1,SZ,SOU,renewable,True,True,False,utility solar PV
+ETLFRCPH1,ET,LFR,diesel,True,True,True,light fuel oil / diesel generation
+ETGOCVPH1,ET,GOC,renewable,True,True,True,geothermal
+GANGGCPH1,GA,NGG,grid_thermal,True,True,True,gas turbine
+GALFRCPH1,GA,LFR,diesel,True,True,True,light fuel oil / diesel generation
+GAHFGCPH1,GA,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+GAHYDMSH1,GA,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+GMLFRCPH1,GM,LFR,diesel,True,True,True,light fuel oil / diesel generation
+GMHFGCPH1,GM,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+GMWINDPH1,GM,WIN,renewable,True,True,True,wind
+GMSOU1PH1,GM,SOU,renewable,True,True,False,utility solar PV
+GHLFRCPH1,GH,LFR,diesel,True,True,True,light fuel oil / diesel generation
+GHHFGCPH1,GH,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+GHBMCHPH1,GH,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+GHHYDMSH1,GH,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+GNLFRCPH1,GN,LFR,diesel,True,True,True,light fuel oil / diesel generation
+GNHFGCPH1,GN,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+GNHYDMSH1,GN,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+GNSOU1PH1,GN,SOU,renewable,True,True,False,utility solar PV
+GWLFRCPH1,GW,LFR,diesel,True,True,True,light fuel oil / diesel generation
+KELFRCPH1,KE,LFR,diesel,True,True,True,light fuel oil / diesel generation
+KEHFGCPH1,KE,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+KEBMCHPH1,KE,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+KEWINDPH1,KE,WIN,renewable,True,True,True,wind
+LSHYDMSH1,LS,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+LRLFRCPH1,LR,LFR,diesel,True,True,True,light fuel oil / diesel generation
+LRHFGCPH1,LR,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+LRHYDMSH1,LR,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+MWLFRCPH1,MW,LFR,diesel,True,True,True,light fuel oil / diesel generation
+MWBMCHPH1,MW,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+MWHYDMSH1,MW,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+MLLFRCPH1,ML,LFR,diesel,True,True,True,light fuel oil / diesel generation
+MLHFGCPH1,ML,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+MLBMCHPH1,ML,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+MRNGCCPH1,MR,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+MRLFRCPH1,MR,LFR,diesel,True,True,True,light fuel oil / diesel generation
+MRHFGCPH1,MR,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+MZNGGCPH1,MZ,NGG,grid_thermal,True,True,True,gas turbine
+MZBMCHPH1,MZ,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+MZHYDMSH1,MZ,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+NACOSCPH1,NA,COS,grid_thermal,True,True,True,coal
+NALFRCPH1,NA,LFR,diesel,True,True,True,light fuel oil / diesel generation
+NAHFGCPH1,NA,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+NABMCHPH1,NA,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+NAHYDMSH1,NA,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+NAWINDPH1,NA,WIN,renewable,True,True,True,wind
+NECOSCPH1,NE,COS,grid_thermal,True,True,True,coal
+NENGCCPH1,NE,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+NGBMCHPH1,NG,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+RWWINDPH1,RW,WIN,renewable,True,True,True,wind
+RWNGGCPH1,RW,NGG,grid_thermal,True,True,True,gas turbine
+RWLFRCPH1,RW,LFR,diesel,True,True,True,light fuel oil / diesel generation
+RWHFGCPH1,RW,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+RWBMCHPH1,RW,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+RWHYDMSH1,RW,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+SNHYDMSH1,SN,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+SNCOSCPH1,SN,COS,grid_thermal,True,True,True,coal
+SNBMCHPH1,SN,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+SLWINDPH1,SL,WIN,renewable,True,True,True,wind
+SLLFRCPH1,SL,LFR,diesel,True,True,True,light fuel oil / diesel generation
+SLHFGCPH1,SL,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+SLBMCHPH1,SL,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+SLHYDMSH1,SL,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+ZACOSCPH1,ZA,COS,grid_thermal,True,True,True,coal
+ZALFRCPH1,ZA,LFR,diesel,True,True,True,light fuel oil / diesel generation
+ZAHFGCPH1,ZA,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+ZABMCHPH1,ZA,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+ZAHYDMSH1,ZA,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+ZASOC1PH1,ZA,SOC,renewable,True,True,True,concentrated solar
+SSLFRCPH1,SS,LFR,diesel,True,True,True,light fuel oil / diesel generation
+SSHFGCPH1,SS,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+TGNGCCPH1,TG,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+TGLFRCPH1,TG,LFR,diesel,True,True,True,light fuel oil / diesel generation
+TGHFGCPH1,TG,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+TGHYDMSH1,TG,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+UGSOU1PH1,UG,SOU,renewable,True,True,False,utility solar PV
+UGLFRCPH1,UG,LFR,diesel,True,True,True,light fuel oil / diesel generation
+UGHFGCPH1,UG,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+UGBMCHPH1,UG,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+TZNGGCPH1,TZ,NGG,grid_thermal,True,True,True,gas turbine
+TZLFRCPH1,TZ,LFR,diesel,True,True,True,light fuel oil / diesel generation
+TZHFGCPH1,TZ,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+TZBMCHPH1,TZ,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+TZHYDMSH1,TZ,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+ZMWINDPH1,ZM,WIN,renewable,True,True,True,wind
+ZMCOSCPH1,ZM,COS,grid_thermal,True,True,True,coal
+ZMLFRCPH1,ZM,LFR,diesel,True,True,True,light fuel oil / diesel generation
+ZMHFGCPH1,ZM,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+ZMBMCHPH1,ZM,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+ZWLFRCPH1,ZW,LFR,diesel,True,True,True,light fuel oil / diesel generation
+DZNGCCPN1,DZ,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+DZNGGCPN1,DZ,NGG,grid_thermal,True,True,True,gas turbine
+DZSOU1PN1,DZ,SOU,renewable,True,True,False,utility solar PV
+EGBMCHPN1,EG,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+EGSOU1PN1,EG,SOU,renewable,True,True,False,utility solar PV
+EGWINDPN1,EG,WIN,renewable,True,True,True,wind
+LYNGCCPN1,LY,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+LYNGGCPN1,LY,NGG,grid_thermal,True,True,True,gas turbine
+LYLFRCPN1,LY,LFR,diesel,True,True,True,light fuel oil / diesel generation
+LYHFGCPN1,LY,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+LYSOU1PN1,LY,SOU,renewable,True,True,False,utility solar PV
+MASOU1PN1,MA,SOU,renewable,True,True,False,utility solar PV
+MAWINDPN1,MA,WIN,renewable,True,True,True,wind
+SDSOU1PN1,SD,SOU,renewable,True,True,False,utility solar PV
+TNNGCCPN1,TN,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+TNNGGCPN1,TN,NGG,grid_thermal,True,True,True,gas turbine
+TNSOU1PN1,TN,SOU,renewable,True,True,False,utility solar PV
+AOSOU1PN1,AO,SOU,renewable,True,True,False,utility solar PV
+BJSOU1PN1,BJ,SOU,renewable,True,True,False,utility solar PV
+BFLFRCPN1,BF,LFR,diesel,True,True,True,light fuel oil / diesel generation
+BFHFGCPN1,BF,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+BFHYDMSN1,BF,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+BFSOU1PN1,BF,SOU,renewable,True,True,False,utility solar PV
+BIHYDMSN1,BI,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+CMHYDMSN1,CM,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+CMSOU1PN1,CM,SOU,renewable,True,True,False,utility solar PV
+CFSOU1PN1,CF,SOU,renewable,True,True,False,utility solar PV
+CINGCCPN1,CI,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+CINGGCPN1,CI,NGG,grid_thermal,True,True,True,gas turbine
+CISOU1PN1,CI,SOU,renewable,True,True,False,utility solar PV
+CDLFRCPN1,CD,LFR,diesel,True,True,True,light fuel oil / diesel generation
+CDHFGCPN1,CD,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+CDHYDMSN1,CD,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+CDSOU1PN1,CD,SOU,renewable,True,True,False,utility solar PV
+DJWINDPN1,DJ,WIN,renewable,True,True,True,wind
+ETBMCHPN1,ET,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+ETHYDMSN1,ET,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+ETWINDPN1,ET,WIN,renewable,True,True,True,wind
+GHNGCCPN1,GH,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+GHNGGCPN1,GH,NGG,grid_thermal,True,True,True,gas turbine
+GHSOU1PN1,GH,SOU,renewable,True,True,False,utility solar PV
+KEGOCVPN1,KE,GOC,renewable,True,True,True,geothermal
+KEHYDMSN1,KE,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+KESOU1PN1,KE,SOU,renewable,True,True,False,utility solar PV
+LSSOU1PN1,LS,SOU,renewable,True,True,False,utility solar PV
+MWSOU1PN1,MW,SOU,renewable,True,True,False,utility solar PV
+MLHYDMSN1,ML,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+MLSOU1PN1,ML,SOU,renewable,True,True,False,utility solar PV
+MRSOU1PN1,MR,SOU,renewable,True,True,False,utility solar PV
+MRWINDPN1,MR,WIN,renewable,True,True,True,wind
+MZLFRCPN1,MZ,LFR,diesel,True,True,True,light fuel oil / diesel generation
+MZHFGCPN1,MZ,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+MZSOU1PN1,MZ,SOU,renewable,True,True,False,utility solar PV
+NASOU1PN1,NA,SOU,renewable,True,True,False,utility solar PV
+NELFRCPN1,NE,LFR,diesel,True,True,True,light fuel oil / diesel generation
+NEHFGCPN1,NE,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+NESOU1PN1,NE,SOU,renewable,True,True,False,utility solar PV
+NGNGCCPN1,NG,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+NGNGGCPN1,NG,NGG,grid_thermal,True,True,True,gas turbine
+NGLFRCPN1,NG,LFR,diesel,True,True,True,light fuel oil / diesel generation
+NGHFGCPN1,NG,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+NGHYDMSN1,NG,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+NGSOU1PN1,NG,SOU,renewable,True,True,False,utility solar PV
+RWCOSCPN1,RW,COS,grid_thermal,True,True,True,coal
+SNNGCCPN1,SN,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+SNLFRCPN1,SN,LFR,diesel,True,True,True,light fuel oil / diesel generation
+SNHFGCPN1,SN,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+SNSOU1PN1,SN,SOU,renewable,True,True,False,utility solar PV
+ZANULWPN1,ZA,NUL,grid_thermal,True,True,True,nuclear
+ZASOU1PN1,ZA,SOU,renewable,True,True,False,utility solar PV
+SSWINDPN1,SS,WIN,renewable,True,True,True,wind
+TGSOU1PN1,TG,SOU,renewable,True,True,False,utility solar PV
+UGHYDMSN1,UG,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+TZSOU1PN1,TZ,SOU,renewable,True,True,False,utility solar PV
+ZMHYDMSN1,ZM,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+ZWSOU1PN1,ZW,SOU,renewable,True,True,False,utility solar PV
+ZWCOSCPN1,ZW,COS,grid_thermal,True,True,True,coal
+DZLFRCPN1,DZ,LFR,diesel,True,True,True,light fuel oil / diesel generation
+DZHFGCPN1,DZ,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+DZHYDMSN1,DZ,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+DZSOC1PN1,DZ,SOC,renewable,True,True,True,concentrated solar
+EGNGCCPN1,EG,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+EGNGGCPN1,EG,NGG,grid_thermal,True,True,True,gas turbine
+EGLFRCPN1,EG,LFR,diesel,True,True,True,light fuel oil / diesel generation
+EGHFGCPN1,EG,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+EGHYDMSN1,EG,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+EGSOC1PN1,EG,SOC,renewable,True,True,True,concentrated solar
+MACOSCPN1,MA,COS,grid_thermal,True,True,True,coal
+MALFRCPN1,MA,LFR,diesel,True,True,True,light fuel oil / diesel generation
+MAHFGCPN1,MA,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+MANGCCPN1,MA,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+MANGGCPN1,MA,NGG,grid_thermal,True,True,True,gas turbine
+MABMCHPN1,MA,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+MAHYDMSN1,MA,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+MASOC1PN1,MA,SOC,renewable,True,True,True,concentrated solar
+SDLFRCPN1,SD,LFR,diesel,True,True,True,light fuel oil / diesel generation
+SDHFGCPN1,SD,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+SDBMCHPN1,SD,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+SDHYDMSN1,SD,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+TNLFRCPN1,TN,LFR,diesel,True,True,True,light fuel oil / diesel generation
+TNHFGCPN1,TN,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+TNHYDMSN1,TN,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+TNWINDPN1,TN,WIN,renewable,True,True,True,wind
+AONGGCPN1,AO,NGG,grid_thermal,True,True,True,gas turbine
+AOLFRCPN1,AO,LFR,diesel,True,True,True,light fuel oil / diesel generation
+AOHFGCPN1,AO,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+AOBMCHPN1,AO,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+AOHYDMSN1,AO,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+BJNGGCPN1,BJ,NGG,grid_thermal,True,True,True,gas turbine
+BJLFRCPN1,BJ,LFR,diesel,True,True,True,light fuel oil / diesel generation
+BJHFGCPN1,BJ,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+BJHYDMSN1,BJ,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+BWCOSCPN1,BW,COS,grid_thermal,True,True,True,coal
+BWLFRCPN1,BW,LFR,diesel,True,True,True,light fuel oil / diesel generation
+BWSOU1PN1,BW,SOU,renewable,True,True,False,utility solar PV
+BFBMCHPN1,BF,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+BILFRCPN1,BI,LFR,diesel,True,True,True,light fuel oil / diesel generation
+BISOU1PN1,BI,SOU,renewable,True,True,False,utility solar PV
+CMNGGCPN1,CM,NGG,grid_thermal,True,True,True,gas turbine
+CMLFRCPN1,CM,LFR,diesel,True,True,True,light fuel oil / diesel generation
+CMHFGCPN1,CM,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+CFLFRCPN1,CF,LFR,diesel,True,True,True,light fuel oil / diesel generation
+CFHYDMSN1,CF,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+TDNGCCPN1,TD,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+TDLFRCPN1,TD,LFR,diesel,True,True,True,light fuel oil / diesel generation
+TDHFGCPN1,TD,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+TDBMCHPN1,TD,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+TDSOU1PN1,TD,SOU,renewable,True,True,False,utility solar PV
+CGNGGCPN1,CG,NGG,grid_thermal,True,True,True,gas turbine
+CGLFRCPN1,CG,LFR,diesel,True,True,True,light fuel oil / diesel generation
+CGHFGCPN1,CG,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+CGBMCHPN1,CG,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+CGHYDMSN1,CG,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+CILFRCPN1,CI,LFR,diesel,True,True,True,light fuel oil / diesel generation
+CIHFGCPN1,CI,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+CIHYDMSN1,CI,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+DJLFRCPN1,DJ,LFR,diesel,True,True,True,light fuel oil / diesel generation
+DJHFGCPN1,DJ,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+GWNGCCPN1,GW,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+GQNGGCPN1,GQ,NGG,grid_thermal,True,True,True,gas turbine
+GQLFRCPN1,GQ,LFR,diesel,True,True,True,light fuel oil / diesel generation
+GQHFGCPN1,GQ,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+GQHYDMSN1,GQ,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+ERLFRCPN1,ER,LFR,diesel,True,True,True,light fuel oil / diesel generation
+ERHFGCPN1,ER,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+SZLFRCPN1,SZ,LFR,diesel,True,True,True,light fuel oil / diesel generation
+SZHFGCPN1,SZ,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+SZBMCHPN1,SZ,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+SZHYDMSN1,SZ,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+SZSOU1PN1,SZ,SOU,renewable,True,True,False,utility solar PV
+ETLFRCPN1,ET,LFR,diesel,True,True,True,light fuel oil / diesel generation
+ETGOCVPN1,ET,GOC,renewable,True,True,True,geothermal
+GANGGCPN1,GA,NGG,grid_thermal,True,True,True,gas turbine
+GALFRCPN1,GA,LFR,diesel,True,True,True,light fuel oil / diesel generation
+GAHFGCPN1,GA,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+GAHYDMSN1,GA,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+GMLFRCPN1,GM,LFR,diesel,True,True,True,light fuel oil / diesel generation
+GMHFGCPN1,GM,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+GMWINDPN1,GM,WIN,renewable,True,True,True,wind
+GMSOU1PN1,GM,SOU,renewable,True,True,False,utility solar PV
+GAWINDPN1,GA,WIN,renewable,True,True,True,wind
+GHLFRCPN1,GH,LFR,diesel,True,True,True,light fuel oil / diesel generation
+GHHFGCPN1,GH,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+GHBMCHPN1,GH,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+GHHYDMSN1,GH,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+GNLFRCPN1,GN,LFR,diesel,True,True,True,light fuel oil / diesel generation
+GNHFGCPN1,GN,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+GNHYDMSN1,GN,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+GNSOU1PN1,GN,SOU,renewable,True,True,False,utility solar PV
+GWLFRCPN1,GW,LFR,diesel,True,True,True,light fuel oil / diesel generation
+KELFRCPN1,KE,LFR,diesel,True,True,True,light fuel oil / diesel generation
+KEHFGCPN1,KE,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+KEBMCHPN1,KE,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+KEWINDPN1,KE,WIN,renewable,True,True,True,wind
+LSHYDMSN1,LS,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+LRLFRCPN1,LR,LFR,diesel,True,True,True,light fuel oil / diesel generation
+LRHFGCPN1,LR,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+LRHYDMSN1,LR,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+MWLFRCPN1,MW,LFR,diesel,True,True,True,light fuel oil / diesel generation
+MWBMCHPN1,MW,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+MWHYDMSN1,MW,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+MLLFRCPN1,ML,LFR,diesel,True,True,True,light fuel oil / diesel generation
+MLHFGCPN1,ML,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+MLBMCHPN1,ML,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+MRNGCCPN1,MR,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+MRLFRCPN1,MR,LFR,diesel,True,True,True,light fuel oil / diesel generation
+MRHFGCPN1,MR,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+MZNGGCPN1,MZ,NGG,grid_thermal,True,True,True,gas turbine
+MZBMCHPN1,MZ,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+MZHYDMSN1,MZ,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+NACOSCPN1,NA,COS,grid_thermal,True,True,True,coal
+NALFRCPN1,NA,LFR,diesel,True,True,True,light fuel oil / diesel generation
+NAHFGCPN1,NA,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+NABMCHPN1,NA,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+NAHYDMSN1,NA,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+NAWINDPN1,NA,WIN,renewable,True,True,True,wind
+NECOSCPN1,NE,COS,grid_thermal,True,True,True,coal
+NENGCCPN1,NE,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+NGBMCHPN1,NG,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+RWWINDPN1,RW,WIN,renewable,True,True,True,wind
+RWNGGCPN1,RW,NGG,grid_thermal,True,True,True,gas turbine
+RWLFRCPN1,RW,LFR,diesel,True,True,True,light fuel oil / diesel generation
+RWHFGCPN1,RW,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+RWBMCHPN1,RW,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+RWHYDMSN1,RW,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+SNHYDMSN1,SN,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+SNCOSCPN1,SN,COS,grid_thermal,True,True,True,coal
+SNBMCHPN1,SN,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+SLWINDPN1,SL,WIN,renewable,True,True,True,wind
+SLLFRCPN1,SL,LFR,diesel,True,True,True,light fuel oil / diesel generation
+SLHFGCPN1,SL,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+SLBMCHPN1,SL,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+SLHYDMSN1,SL,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+ZACOSCPN1,ZA,COS,grid_thermal,True,True,True,coal
+ZALFRCPN1,ZA,LFR,diesel,True,True,True,light fuel oil / diesel generation
+ZAHFGCPN1,ZA,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+ZABMCHPN1,ZA,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+ZAHYDMSN1,ZA,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+ZASOC1PN1,ZA,SOC,renewable,True,True,True,concentrated solar
+SSLFRCPN1,SS,LFR,diesel,True,True,True,light fuel oil / diesel generation
+SSHFGCPN1,SS,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+TGNGCCPN1,TG,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+TGLFRCPN1,TG,LFR,diesel,True,True,True,light fuel oil / diesel generation
+TGHFGCPN1,TG,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+TGHYDMSN1,TG,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+UGSOU1PN1,UG,SOU,renewable,True,True,False,utility solar PV
+UGLFRCPN1,UG,LFR,diesel,True,True,True,light fuel oil / diesel generation
+UGHFGCPN1,UG,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+UGBMCHPN1,UG,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+TZNGGCPN1,TZ,NGG,grid_thermal,True,True,True,gas turbine
+TZLFRCPN1,TZ,LFR,diesel,True,True,True,light fuel oil / diesel generation
+TZHFGCPN1,TZ,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+TZBMCHPN1,TZ,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+TZHYDMSN1,TZ,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+ZMWINDPN1,ZM,WIN,renewable,True,True,True,wind
+ZMCOSCPN1,ZM,COS,grid_thermal,True,True,True,coal
+ZMLFRCPN1,ZM,LFR,diesel,True,True,True,light fuel oil / diesel generation
+ZMHFGCPN1,ZM,HFG,grid_thermal,True,True,True,heavy fuel oil (REVIEW: grid thermal or diesel)
+ZMBMCHPN1,ZM,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+ZWLFRCPN1,ZW,LFR,diesel,True,True,True,light fuel oil / diesel generation
+AOWINDPN1,AO,WIN,renewable,True,True,True,wind
+BFNGCCPN1,BF,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+BFWINDPN1,BF,WIN,renewable,True,True,True,wind
+BINGCCPN1,BI,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+BIWINDPN1,BI,WIN,renewable,True,True,True,wind
+BJWINDPN1,BJ,WIN,renewable,True,True,True,wind
+BWNGCCPN1,BW,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+BWWINDPN1,BW,WIN,renewable,True,True,True,wind
+CDNGCCPN1,CD,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+CDWINDPN1,CD,WIN,renewable,True,True,True,wind
+CFNGCCPN1,CF,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+CFWINDPN1,CF,WIN,renewable,True,True,True,wind
+CGSOU1PN1,CG,SOU,renewable,True,True,False,utility solar PV
+CGWINDPN1,CG,WIN,renewable,True,True,True,wind
+CIWINDPN1,CI,WIN,renewable,True,True,True,wind
+CMWINDPN1,CM,WIN,renewable,True,True,True,wind
+DJNGCCPN1,DJ,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+DJSOU1PN1,DJ,SOU,renewable,True,True,False,utility solar PV
+DZWINDPN1,DZ,WIN,renewable,True,True,True,wind
+ERNGCCPN1,ER,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+ERSOU1PN1,ER,SOU,renewable,True,True,False,utility solar PV
+ERWINDPN1,ER,WIN,renewable,True,True,True,wind
+ETNGCCPN1,ET,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+ETSOU1PN1,ET,SOU,renewable,True,True,False,utility solar PV
+GASOU1PN1,GA,SOU,renewable,True,True,False,utility solar PV
+GHWINDPN1,GH,WIN,renewable,True,True,True,wind
+GMNGCCPN1,GM,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+GNNGCCPN1,GN,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+GNWINDPN1,GN,WIN,renewable,True,True,True,wind
+GQSOU1PN1,GQ,SOU,renewable,True,True,False,utility solar PV
+GQWINDPN1,GQ,WIN,renewable,True,True,True,wind
+GWSOU1PN1,GW,SOU,renewable,True,True,False,utility solar PV
+GWWINDPN1,GW,WIN,renewable,True,True,True,wind
+KENGCCPN1,KE,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+LRNGCCPN1,LR,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+LRSOU1PN1,LR,SOU,renewable,True,True,False,utility solar PV
+LRWINDPN1,LR,WIN,renewable,True,True,True,wind
+LSNGCCPN1,LS,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+LSWINDPN1,LS,WIN,renewable,True,True,True,wind
+LYWINDPN1,LY,WIN,renewable,True,True,True,wind
+MLNGCCPN1,ML,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+MLWINDPN1,ML,WIN,renewable,True,True,True,wind
+MWNGCCPN1,MW,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+MWWINDPN1,MW,WIN,renewable,True,True,True,wind
+MZWINDPN1,MZ,WIN,renewable,True,True,True,wind
+NANGCCPN1,NA,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+NEWINDPN1,NE,WIN,renewable,True,True,True,wind
+NGWINDPN1,NG,WIN,renewable,True,True,True,wind
+RWSOU1PN1,RW,SOU,renewable,True,True,False,utility solar PV
+SDNGCCPN1,SD,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+SDWINDPN1,SD,WIN,renewable,True,True,True,wind
+SLNGCCPN1,SL,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+SLSOU1PN1,SL,SOU,renewable,True,True,False,utility solar PV
+SNWINDPN1,SN,WIN,renewable,True,True,True,wind
+SONGCCPN1,SO,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+SOSOU1PN1,SO,SOU,renewable,True,True,False,utility solar PV
+SOWINDPN1,SO,WIN,renewable,True,True,True,wind
+SSNGCCPN1,SS,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+SSSOU1PN1,SS,SOU,renewable,True,True,False,utility solar PV
+SZNGCCPN1,SZ,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+SZWINDPN1,SZ,WIN,renewable,True,True,True,wind
+TDWINDPN1,TD,WIN,renewable,True,True,True,wind
+TGWINDPN1,TG,WIN,renewable,True,True,True,wind
+TZWINDPN1,TZ,WIN,renewable,True,True,True,wind
+UGNGCCPN1,UG,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+UGWINDPN1,UG,WIN,renewable,True,True,True,wind
+ZANGCCPN1,ZA,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+ZAWINDPN1,ZA,WIN,renewable,True,True,True,wind
+ZMNGCCPN1,ZM,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+ZMSOU1PN1,ZM,SOU,renewable,True,True,False,utility solar PV
+ZWNGCCPN1,ZW,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+ZWWINDPN1,ZW,WIN,renewable,True,True,True,wind
+AONGCCSPN1,AO,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+BFNGCCSPN1,BF,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+BINGCCSPN1,BI,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+BJNGCCSPN1,BJ,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+BWNGCCSPN1,BW,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+CDNGCCSPN1,CD,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+CFNGCCSPN1,CF,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+CGNGCCSPN1,CG,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+CINGCCSPN1,CI,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+CMNGCCSPN1,CM,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+DJNGCCSPN1,DJ,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+DZNGCCSPN1,DZ,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+EGNGCCSPN1,EG,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+ERNGCCSPN1,ER,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+ETNGCCSPN1,ET,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+GANGCCSPN1,GA,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+GHNGCCSPN1,GH,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+GMNGCCSPN1,GM,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+GNNGCCSPN1,GN,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+GQNGCCSPN1,GQ,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+GWNGCCSPN1,GW,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+KENGCCSPN1,KE,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+LRNGCCSPN1,LR,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+LSNGCCSPN1,LS,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+LYNGCCSPN1,LY,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+MANGCCSPN1,MA,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+MLNGCCSPN1,ML,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+MRNGCCSPN1,MR,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+MWNGCCSPN1,MW,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+MZNGCCSPN1,MZ,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+NANGCCSPN1,NA,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+NENGCCSPN1,NE,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+NGNGCCSPN1,NG,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+RWNGCCSPN1,RW,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+SDNGCCSPN1,SD,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+SLNGCCSPN1,SL,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+SNNGCCSPN1,SN,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+SONGCCSPN1,SO,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+SSNGCCSPN1,SS,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+SZNGCCSPN1,SZ,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+TDNGCCSPN1,TD,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+TGNGCCSPN1,TG,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+TNNGCCSPN1,TN,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+TZNGCCSPN1,TZ,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+UGNGCCSPN1,UG,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+ZANGCCSPN1,ZA,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+ZMNGCCSPN1,ZM,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+ZWNGCCSPN1,ZW,NGC,grid_thermal,True,True,True,gas combined cycle (incl. CCS)
+EGBMCCSPN1,EG,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+ETBMCCSPN1,ET,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+MABMCCSPN1,MA,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+SDBMCCSPN1,SD,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+AOBMCCSPN1,AO,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+BFBMCCSPN1,BF,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+TDBMCCSPN1,TD,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+CGBMCCSPN1,CG,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+SZBMCCSPN1,SZ,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+GHBMCCSPN1,GH,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+KEBMCCSPN1,KE,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+MWBMCCSPN1,MW,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+MLBMCCSPN1,ML,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+MZBMCCSPN1,MZ,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+NABMCCSPN1,NA,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+NGBMCCSPN1,NG,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+RWBMCCSPN1,RW,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+SNBMCCSPN1,SN,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+SLBMCCSPN1,SL,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+ZABMCCSPN1,ZA,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+UGBMCCSPN1,UG,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+TZBMCCSPN1,TZ,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+ZMBMCCSPN1,ZM,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+RWCOCCSPN1,RW,COC,grid_thermal,True,True,True,coal with CCS
+ZWCOCCSPN1,ZW,COC,grid_thermal,True,True,True,coal with CCS
+MACOCCSPN1,MA,COC,grid_thermal,True,True,True,coal with CCS
+BWCOCCSPN1,BW,COC,grid_thermal,True,True,True,coal with CCS
+NACOCCSPN1,NA,COC,grid_thermal,True,True,True,coal with CCS
+NECOCCSPN1,NE,COC,grid_thermal,True,True,True,coal with CCS
+SNCOCCSPN1,SN,COC,grid_thermal,True,True,True,coal with CCS
+ZACOCCSPN1,ZA,COC,grid_thermal,True,True,True,coal with CCS
+ZMCOCCSPN1,ZM,COC,grid_thermal,True,True,True,coal with CCS
+ZWHYDMSH1,ZW,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+ZWBMCHPH1,ZW,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+ZWHYDMSN1,ZW,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+ZWBMCHPN1,ZW,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+ZWBMCCSPN1,ZW,BMC,renewable,True,True,True,biomass (REVIEW: renewable or not)
+SOLFRCPH1,SO,LFR,diesel,True,True,True,light fuel oil / diesel generation
+SOLFRCPN1,SO,LFR,diesel,True,True,True,light fuel oil / diesel generation
+SOSOU1PH1,SO,SOU,renewable,True,True,False,utility solar PV
+SOWINDPH1,SO,WIN,renewable,True,True,False,wind
+EGLG00I00,EG,LG0,none,True,True,True,"fuel import/extraction or other, not scaled"
+GHLG00I00,GH,LG0,none,True,True,True,"fuel import/extraction or other, not scaled"
+MALG00I00,MA,LG0,none,True,True,True,"fuel import/extraction or other, not scaled"
+MZLG00I00,MZ,LG0,none,True,True,True,"fuel import/extraction or other, not scaled"
+SNLG00I00,SN,LG0,none,True,True,True,"fuel import/extraction or other, not scaled"
+ZALG00I00,ZA,LG0,none,True,True,True,"fuel import/extraction or other, not scaled"
+DZLG00E00,DZ,LG0,none,True,True,True,"fuel import/extraction or other, not scaled"
+NGLG00E00,NG,LG0,none,True,True,True,"fuel import/extraction or other, not scaled"
+EGLG00E00,EG,LG0,none,True,True,True,"fuel import/extraction or other, not scaled"
+AOLG00E00,AO,LG0,none,True,True,True,"fuel import/extraction or other, not scaled"
+GQLG00E00,GQ,LG0,none,True,True,True,"fuel import/extraction or other, not scaled"
+MZLG00E00,MZ,LG0,none,True,True,True,"fuel import/extraction or other, not scaled"
+CGLG00E00,CG,LG0,none,True,True,True,"fuel import/extraction or other, not scaled"
+GALG00E00,GA,LG0,none,True,True,True,"fuel import/extraction or other, not scaled"
+MRLG00E00,MR,LG0,none,True,True,True,"fuel import/extraction or other, not scaled"
+SNLG00E00,SN,LG0,none,True,True,True,"fuel import/extraction or other, not scaled"
+TZLG00E00,TZ,LG0,none,True,True,True,"fuel import/extraction or other, not scaled"
+DZNG00X00,DZ,NG0,none,False,False,True,"fuel import/extraction or other, not scaled"
+EGNG00X00,EG,NG0,none,False,False,True,"fuel import/extraction or other, not scaled"
+LYNG00X00,LY,NG0,none,False,False,True,"fuel import/extraction or other, not scaled"
+NGNG00X00,NG,NG0,none,False,False,True,"fuel import/extraction or other, not scaled"
+CGNG00X00,CG,NG0,none,False,False,True,"fuel import/extraction or other, not scaled"
+AONG00X00,AO,NG0,none,False,False,True,"fuel import/extraction or other, not scaled"
+CMNG00X00,CM,NG0,none,False,False,True,"fuel import/extraction or other, not scaled"
+CING00X00,CI,NG0,none,False,False,True,"fuel import/extraction or other, not scaled"
+GQNG00X00,GQ,NG0,none,False,False,True,"fuel import/extraction or other, not scaled"
+GANG00X00,GA,NG0,none,False,False,True,"fuel import/extraction or other, not scaled"
+GHNG00X00,GH,NG0,none,False,False,True,"fuel import/extraction or other, not scaled"
+MANG00X00,MA,NG0,none,False,False,True,"fuel import/extraction or other, not scaled"
+MZNG00X00,MZ,NG0,none,False,False,True,"fuel import/extraction or other, not scaled"
+NENG00X00,NE,NG0,none,False,False,True,"fuel import/extraction or other, not scaled"
+RWNG00X00,RW,NG0,none,False,False,True,"fuel import/extraction or other, not scaled"
+SNNG00X00,SN,NG0,none,False,False,True,"fuel import/extraction or other, not scaled"
+ZANG00X00,ZA,NG0,none,False,False,True,"fuel import/extraction or other, not scaled"
+TZNG00X00,TZ,NG0,none,False,False,True,"fuel import/extraction or other, not scaled"
+TNNG00X00,TN,NG0,none,False,False,True,"fuel import/extraction or other, not scaled"
+SNWINDPH1,SN,WIN,renewable,True,True,True,wind
+DZBATTN1,DZ,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+AOBATTN1,AO,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+BJBATTN1,BJ,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+BWBATTN1,BW,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+BFBATTN1,BF,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+BIBATTN1,BI,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+CMBATTN1,CM,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+CFBATTN1,CF,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+TDBATTN1,TD,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+CIBATTN1,CI,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+DJBATTN1,DJ,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+CDBATTN1,CD,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+EGBATTN1,EG,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+GQBATTN1,GQ,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+ERBATTN1,ER,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+SZBATTN1,SZ,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+ETBATTN1,ET,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+GABATTN1,GA,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+GMBATTN1,GM,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+GHBATTN1,GH,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+GNBATTN1,GN,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+GWBATTN1,GW,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+KEBATTN1,KE,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+LSBATTN1,LS,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+LRBATTN1,LR,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+LYBATTN1,LY,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+MWBATTN1,MW,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+MLBATTN1,ML,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+MRBATTN1,MR,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+MABATTN1,MA,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+MZBATTN1,MZ,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+NABATTN1,NA,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+NEBATTN1,NE,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+NGBATTN1,NG,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+CGBATTN1,CG,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+RWBATTN1,RW,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+SNBATTN1,SN,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+SLBATTN1,SL,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+SOBATTN1,SO,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+ZABATTN1,ZA,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+SSBATTN1,SS,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+SDBATTN1,SD,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+TZBATTN1,TZ,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+TGBATTN1,TG,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+TNBATTN1,TN,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+UGBATTN1,UG,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+ZMBATTN1,ZM,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+ZWBATTN1,ZW,BAT,renewable,True,True,False,battery storage (REVIEW: renewable or not)
+MAHYDSPH1,MA,HYD,renewable,True,True,False,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+ZAHYDSPH1,ZA,HYD,renewable,True,True,False,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+MAHYDSPN1,MA,HYD,renewable,True,True,False,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+ZAHYDSPN1,ZA,HYD,renewable,True,True,False,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+CICOSCPN1,CI,COS,grid_thermal,True,True,True,coal
+EGNULWPN1,EG,NUL,grid_thermal,True,True,True,nuclear
+EGNU00I00,EG,NU0,none,False,False,True,"fuel import/extraction or other, not scaled"
+CICO00I00,CI,CO0,none,False,False,True,"fuel import/extraction or other, not scaled"
+SSHYDMSN1,SS,HYD,renewable,True,True,True,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+TNHYDSPN1,TN,HYD,renewable,True,True,False,"hydro (MS = run-of-river/reservoir, SP = pumped storage)"
+DZNGBACKSTOP,DZ,NGB,none,True,False,True,backstop
+AONGBACKSTOP,AO,NGB,none,True,False,True,backstop
+BJNGBACKSTOP,BJ,NGB,none,True,False,True,backstop
+BWNGBACKSTOP,BW,NGB,none,True,False,True,backstop
+BFNGBACKSTOP,BF,NGB,none,True,False,True,backstop
+BINGBACKSTOP,BI,NGB,none,True,False,True,backstop
+CMNGBACKSTOP,CM,NGB,none,True,False,True,backstop
+CFNGBACKSTOP,CF,NGB,none,True,False,True,backstop
+TDNGBACKSTOP,TD,NGB,none,True,False,True,backstop
+CINGBACKSTOP,CI,NGB,none,True,False,True,backstop
+DJNGBACKSTOP,DJ,NGB,none,True,False,True,backstop
+CDNGBACKSTOP,CD,NGB,none,True,False,True,backstop
+EGNGBACKSTOP,EG,NGB,none,True,False,True,backstop
+GQNGBACKSTOP,GQ,NGB,none,True,False,True,backstop
+ERNGBACKSTOP,ER,NGB,none,True,False,True,backstop
+SZNGBACKSTOP,SZ,NGB,none,True,False,True,backstop
+ETNGBACKSTOP,ET,NGB,none,True,False,True,backstop
+GANGBACKSTOP,GA,NGB,none,True,False,True,backstop
+GMNGBACKSTOP,GM,NGB,none,True,False,True,backstop
+GHNGBACKSTOP,GH,NGB,none,True,False,True,backstop
+GNNGBACKSTOP,GN,NGB,none,True,False,True,backstop
+GWNGBACKSTOP,GW,NGB,none,True,False,True,backstop
+KENGBACKSTOP,KE,NGB,none,True,False,True,backstop
+LSNGBACKSTOP,LS,NGB,none,True,False,True,backstop
+LRNGBACKSTOP,LR,NGB,none,True,False,True,backstop
+LYNGBACKSTOP,LY,NGB,none,True,False,True,backstop
+MWNGBACKSTOP,MW,NGB,none,True,False,True,backstop
+MLNGBACKSTOP,ML,NGB,none,True,False,True,backstop
+MRNGBACKSTOP,MR,NGB,none,True,False,True,backstop
+MANGBACKSTOP,MA,NGB,none,True,False,True,backstop
+MZNGBACKSTOP,MZ,NGB,none,True,False,True,backstop
+NANGBACKSTOP,NA,NGB,none,True,False,True,backstop
+NENGBACKSTOP,NE,NGB,none,True,False,True,backstop
+NGNGBACKSTOP,NG,NGB,none,True,False,True,backstop
+CGNGBACKSTOP,CG,NGB,none,True,False,True,backstop
+RWNGBACKSTOP,RW,NGB,none,True,False,True,backstop
+SNNGBACKSTOP,SN,NGB,none,True,False,True,backstop
+SLNGBACKSTOP,SL,NGB,none,True,False,True,backstop
+SONGBACKSTOP,SO,NGB,none,True,False,True,backstop
+ZANGBACKSTOP,ZA,NGB,none,True,False,True,backstop
+SSNGBACKSTOP,SS,NGB,none,True,False,True,backstop
+SDNGBACKSTOP,SD,NGB,none,True,False,True,backstop
+TZNGBACKSTOP,TZ,NGB,none,True,False,True,backstop
+TGNGBACKSTOP,TG,NGB,none,True,False,True,backstop
+TNNGBACKSTOP,TN,NGB,none,True,False,True,backstop
+UGNGBACKSTOP,UG,NGB,none,True,False,True,backstop
+ZMNGBACKSTOP,ZM,NGB,none,True,False,True,backstop
+ZWNGBACKSTOP,ZW,NGB,none,True,False,True,backstop
+DZCO2BACKSTOP,DZ,CO2,none,True,False,True,backstop
+AOCO2BACKSTOP,AO,CO2,none,True,False,True,backstop
+BJCO2BACKSTOP,BJ,CO2,none,True,False,True,backstop
+BWCO2BACKSTOP,BW,CO2,none,True,False,True,backstop
+BFCO2BACKSTOP,BF,CO2,none,True,False,True,backstop
+BICO2BACKSTOP,BI,CO2,none,True,False,True,backstop
+CMCO2BACKSTOP,CM,CO2,none,True,False,True,backstop
+CFCO2BACKSTOP,CF,CO2,none,True,False,True,backstop
+TDCO2BACKSTOP,TD,CO2,none,True,False,True,backstop
+CICO2BACKSTOP,CI,CO2,none,True,False,True,backstop
+DJCO2BACKSTOP,DJ,CO2,none,True,False,True,backstop
+CDCO2BACKSTOP,CD,CO2,none,True,False,True,backstop
+EGCO2BACKSTOP,EG,CO2,none,True,False,True,backstop
+GQCO2BACKSTOP,GQ,CO2,none,True,False,True,backstop
+ERCO2BACKSTOP,ER,CO2,none,True,False,True,backstop
+SZCO2BACKSTOP,SZ,CO2,none,True,False,True,backstop
+ETCO2BACKSTOP,ET,CO2,none,True,False,True,backstop
+GACO2BACKSTOP,GA,CO2,none,True,False,True,backstop
+GMCO2BACKSTOP,GM,CO2,none,True,False,True,backstop
+GHCO2BACKSTOP,GH,CO2,none,True,False,True,backstop
+GNCO2BACKSTOP,GN,CO2,none,True,False,True,backstop
+GWCO2BACKSTOP,GW,CO2,none,True,False,True,backstop
+KECO2BACKSTOP,KE,CO2,none,True,False,True,backstop
+LSCO2BACKSTOP,LS,CO2,none,True,False,True,backstop
+LRCO2BACKSTOP,LR,CO2,none,True,False,True,backstop
+LYCO2BACKSTOP,LY,CO2,none,True,False,True,backstop
+MWCO2BACKSTOP,MW,CO2,none,True,False,True,backstop
+MLCO2BACKSTOP,ML,CO2,none,True,False,True,backstop
+MRCO2BACKSTOP,MR,CO2,none,True,False,True,backstop
+MACO2BACKSTOP,MA,CO2,none,True,False,True,backstop
+MZCO2BACKSTOP,MZ,CO2,none,True,False,True,backstop
+NACO2BACKSTOP,NA,CO2,none,True,False,True,backstop
+NECO2BACKSTOP,NE,CO2,none,True,False,True,backstop
+NGCO2BACKSTOP,NG,CO2,none,True,False,True,backstop
+CGCO2BACKSTOP,CG,CO2,none,True,False,True,backstop
+RWCO2BACKSTOP,RW,CO2,none,True,False,True,backstop
+SNCO2BACKSTOP,SN,CO2,none,True,False,True,backstop
+SLCO2BACKSTOP,SL,CO2,none,True,False,True,backstop
+SOCO2BACKSTOP,SO,CO2,none,True,False,True,backstop
+ZACO2BACKSTOP,ZA,CO2,none,True,False,True,backstop
+SSCO2BACKSTOP,SS,CO2,none,True,False,True,backstop
+SDCO2BACKSTOP,SD,CO2,none,True,False,True,backstop
+TZCO2BACKSTOP,TZ,CO2,none,True,False,True,backstop
+TGCO2BACKSTOP,TG,CO2,none,True,False,True,backstop
+TNCO2BACKSTOP,TN,CO2,none,True,False,True,backstop
+UGCO2BACKSTOP,UG,CO2,none,True,False,True,backstop
+ZMCO2BACKSTOP,ZM,CO2,none,True,False,True,backstop
+ZWCO2BACKSTOP,ZW,CO2,none,True,False,True,backstop
+BIELRWPH1,BI,ELR,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+BWELZAPH1,BW,ELZ,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+CDELBIPH1,CD,ELB,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+CDELCGPH1,CD,ELC,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+CDELRWPH1,CD,ELR,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+CDELZMPH1,CD,ELZ,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+CIELBFPH1,CI,ELB,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+EGELSDPH1,EG,ELS,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+ETELDJPH1,ET,ELD,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+ETELSDPH1,ET,ELS,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+GHELCIPH1,GH,ELC,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+GHELTGPH1,GH,ELT,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+KEELTZPH1,KE,ELT,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+LSELZAPH1,LS,ELZ,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+LYELEGPH1,LY,ELE,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+MAELDZPH1,MA,ELD,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+MZELSZPH1,MZ,ELS,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+MZELZAPH1,MZ,ELZ,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+MZELZWPH1,MZ,ELZ,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+NGELBJPH1,NG,ELB,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+NGELNEPH1,NG,ELN,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+NAELZAPH1,NA,ELZ,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+RWELBIPH1,RW,ELB,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+SNELMLPH1,SN,ELM,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+TGELBJPH1,TG,ELB,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+TNELDZPH1,TN,ELD,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+TZELUGPH1,TZ,ELU,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+UGELKEPH1,UG,ELK,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+UGELRWPH1,UG,ELR,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+UGELTZPH1,UG,ELT,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+ZAELSZPH1,ZA,ELS,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+ZAELZWPH1,ZA,ELZ,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+ZMELZWPH1,ZM,ELZ,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+AOELBWPH1,AO,ELB,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+AOELCDPH1,AO,ELC,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+AOELNAPH1,AO,ELN,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+BFELMLPH1,BF,ELM,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+BWELNAPH1,BW,ELN,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+CDELNAPH1,CD,ELN,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+CDELZAPH1,CD,ELZ,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+CGELGAPH1,CG,ELG,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+CMELTDPH1,CM,ELT,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+ETELKEPH1,ET,ELK,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+GAELGQPH1,GA,ELG,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+GHELBFPH1,GH,ELB,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+GMELGWPH1,GM,ELG,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+GQELCMPH1,GQ,ELC,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+GWELGNPH1,GW,ELG,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+LRELGNPH1,LR,ELG,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+LRELSLPH1,LR,ELS,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+MLELCIPH1,ML,ELC,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+MWELMZPH1,MW,ELM,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+MWELZMPH1,MW,ELZ,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+NAELZWPH1,NA,ELZ,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+NEELBFPH1,NE,ELB,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+NEELBJPH1,NE,ELB,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+NEELTGPH1,NE,ELT,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+SLELGNPH1,SL,ELG,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+SNELGMPH1,SN,ELG,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+SNELGNPH1,SN,ELG,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+TGELGHPH1,TG,ELG,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+TZELZMPH1,TZ,ELZ,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+CIELLRPH1,CI,ELL,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+GNELMLPH1,GN,ELM,interconnector,True,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+AOELZMPH1,AO,ELZ,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+BFELBJPH1,BF,ELB,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+BFELTGPH1,BF,ELT,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+BIELTZPH1,BI,ELT,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+BJELGHPH1,BJ,ELG,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+BWELZMPH1,BW,ELZ,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+CDELCFPH1,CD,ELC,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+CDELSDPH1,CD,ELS,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+CDELTZPH1,CD,ELT,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+CDELUGPH1,CD,ELU,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+CFELCGPH1,CF,ELC,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+CFELCMPH1,CF,ELC,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+CFELSDPH1,CF,ELS,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+CFELTDPH1,CF,ELT,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+CGELCMPH1,CG,ELC,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+CIELGNPH1,CI,ELG,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+CMELGAPH1,CM,ELG,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+CMELNGPH1,CM,ELN,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+DJELERPH1,DJ,ELE,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+DJELSOPH1,DJ,ELS,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+DZELLYPH1,DZ,ELL,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+DZELMLPH1,DZ,ELM,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+DZELMRPH1,DZ,ELM,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+DZELNEPH1,DZ,ELN,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+ETELERPH1,ET,ELE,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+ETELSOPH1,ET,ELS,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+GWELSNPH1,GW,ELS,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+KEELSDPH1,KE,ELS,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+KEELSOPH1,KE,ELS,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+LYELNEPH1,LY,ELN,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+LYELSDPH1,LY,ELS,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+LYELTDPH1,LY,ELT,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+LYELTNPH1,LY,ELT,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+MLELMRPH1,ML,ELM,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+MLELNEPH1,ML,ELN,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+MRELSNPH1,MR,ELS,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+MWELTZPH1,MW,ELT,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+MZELTZPH1,MZ,ELT,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+MZELZMPH1,MZ,ELZ,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+NEELTDPH1,NE,ELT,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+NGELTDPH1,NG,ELT,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+RWELTZPH1,RW,ELT,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+SDELERPH1,SD,ELE,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+SDELTDPH1,SD,ELT,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+SDELUGPH1,SD,ELU,interconnector,False,False,True,cross-border power line (REVIEW: scaled with 'Grid CAPEX'?)
+NGNGDZPI0,NG,NGD,none,True,True,True,gas pipeline
+MZNGZAPI0,MZ,NGZ,none,True,True,True,gas pipeline
+NGNGLYPI0,NG,NGL,none,True,True,True,gas pipeline
+ETNGDJPI0,ET,NGD,none,True,True,True,gas pipeline
+NGNGGQPI0,NG,NGG,grid_thermal,True,True,True,gas turbine
+TZNGKEPI0,TZ,NGK,none,True,True,True,gas pipeline
+NGNGMAPI0,NG,NGM,none,True,True,True,gas pipeline
+NGNGBJPI0,NG,NGB,none,True,True,True,gas pipeline
+NGNGGHPI0,NG,NGG,grid_thermal,True,True,True,gas turbine
+NGNGNEPI0,NG,NGN,none,True,True,True,gas pipeline
+NGNGTGPI0,NG,NGT,none,True,True,True,gas pipeline
+NGNGTNPI0,NG,NGT,none,True,True,True,gas pipeline
+DZNGMAPI0,DZ,NGM,none,True,True,True,gas pipeline

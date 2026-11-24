@@ -1,0 +1,8 @@
+# Third-party code the workflow calls (not vendored, no submodules).
+aetos:
+  repo: https://github.com/ekousoulos/AETOS-model
+  version: "Zenodo v2, doi:10.5281/zenodo.18479411"   # used unmodified: AETOS_Runner/model/osemosys_fast_AETOS.txt, config_otoole_AETOS.yaml
+  licence: MIT (Copyright (c) 2025 Elias Kousoulos); notice kept in data/aetos_africa_pn/LICENSE_AETOS
+onsset1:
+  repo: https://github.com/KTH-dESA/onsset
+  version: "b39ef2037dcaf46e906f38d938c0865bf4819bb2"   # branch mess/aetos_soft_link; modified fork of OnSSET

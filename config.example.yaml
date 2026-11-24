@@ -1,0 +1,27 @@
+# Copy to config.yaml and edit. This is the only file with machine-specific paths.
+# Paths: forward slashes, also on Windows.
+
+# --- software -----------------------------------------------------------------------------------------------------------
+onsset_python: /path/to/envs/onsset_gep/python        # python of the OnSSET environment (envs/onsset.yaml)
+onsset1_repo:  /path/to/onsset-1                      # onsset-1 repository, branch/release pinned in versions.yaml
+aetos_repo:    /path/to/AETOS-model                   # AETOS-model repository (unmodified), release pinned in versions.yaml
+bash:          C:/Program Files/Git/usr/bin/bash.exe  # Windows only (Snakemake shell lines are bash); remove on Linux/macOS
+solver: gurobi                                        # gurobi (used in the study) | highs (free) | cplex (licence needed)
+
+# --- countries ----------------------------------------------------------------------------------------------------------
+# Final OnSSET run 2 (and the figures/maps). Run 1, calibration and the AETOS demand always cover every country that has a
+# cluster file in onsset/clusters. For the whole continent: list every ISO3 code (or the countries you want).
+countries: [NGA, ZMB]
+
+# --- input data (read-only originals, copied into onsset/ by scripts/stage_onsset_inputs.py) --------------------------------
+iea_clusters_dir:     /path/to/IEA/OnSSET/Input_data/CSVs      # <ISO3>_gis_inputs_updated.gz cluster files
+gep_specs_dir:        /path/to/GEP/Climate_specs               # <cc>-3-specs.xlsx
+onstove_csv:          /path/to/onstove_country_inputs_SSA.csv  # onstove 2025 scalars incl. gdp_pc
+iso_codes_csv:        data/iso_codes.csv                       # Alpha-2 / Alpha-3 table (shipped)
+onsset_resources_dir: /path/to/IEA/OnSSET/Input_data           # Solar_Wind/<cc>-2-pv.csv, MV_lines/<ISO3>/...
+
+# --- maps (optional; only countries listed here get maps) ----------------------------------------------------------------------
+clusters_dir: /path/to/clusters                        # <name>_final_clusters.shp (a local copy is much faster than a synced drive)
+maps:
+  NGA: {name: Nigeria, boundary: /path/to/NGA_boundaries.geojson}
+  ZMB: {name: Zambia,  boundary: /path/to/ZMB_boundaries.geojson}
