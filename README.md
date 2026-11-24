@@ -82,7 +82,11 @@ Subsets: `--config countries=[ZMB] cts=[1] dems=[low] taxes=[0]`. Whole continen
 * All scripts carry a header docstring with inputs, outputs and an example call.
 
 ## Citation and licence
-See `CITATION.cff` and `LICENSE` (MIT). `data/aetos_africa_pn` is derived from AETOS-Africa (MIT, Elias Kousoulos; notice in `data/aetos_africa_pn/LICENSE_AETOS`). AETOS and OnSSET are separate projects with their own licences; cite them too.
+To cite this workflow:
+
+> Martínez-Rodríguez, L., Salas Salazar, M. E., Ribó-Pérez, D., Gómez-Navarro, T., Ramirez Gomez, C., & Fuso Nerini, F. (n.d.). *OnSSET x AETOS soft-link workflow* (Version 1.0.0) [Computer software]. GitHub. https://github.com/KTH-dESA/aetos-onsset-workflow
+
+See `CITATION.cff` for the machine-readable citation and `LICENSE` (MIT). `data/aetos_africa_pn` is derived from AETOS-Africa (MIT, Elias Kousoulos; notice in `data/aetos_africa_pn/LICENSE_AETOS`). AETOS and OnSSET are separate projects with their own licences; cite them too.
 
 ## Acknowledgements
 The definitions used to post-process the AETOS results (grid LCOE incl. imports, emission factor, capacity investment cost,
