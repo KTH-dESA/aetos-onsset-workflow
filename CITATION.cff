@@ -4,7 +4,7 @@ title: "OnSSET x AETOS soft-link workflow"
 type: software
 version: "1.0.0"
 license: MIT
-repository-code: "https://github.com/TODO/TODO"   # TODO: URL of this repository
+repository-code: "https://github.com/KTH-dESA/aetos-onsset-workflow"
 authors:
   - family-names: "Martínez-Rodríguez"
     given-names: "Lucas"
