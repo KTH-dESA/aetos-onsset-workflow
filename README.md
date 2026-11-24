@@ -60,7 +60,7 @@ Stages (each a target, so you can stop part-way): `stage_specs`, `stage_calibrat
 grid seeds), `stage_run1` (all countries), `stage_demand`, `stage_aetos` (the 12 AETOS runs), `stage_run2`
 (`countries:` in the config), and the optional `stage_plots` / `stage_maps` (figures and maps, not part of `all`).
 
-Subsets: `--config countries=[ZMB] cts=[1] dems=[low] taxes=[0]`. Whole continent: list every ISO3 code under
+Subsets: `--config countries=[ZMB] cts=[1] dems=[low] taxes=[0]`. By default (`countries: all`) run 2 covers every country with a cluster file; list ISO3 codes under
 `countries:`; run 1 and the AETOS runs already cover all countries with a cluster file.
 
 ## Outputs (`runs/`)

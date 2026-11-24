@@ -10,8 +10,8 @@ solver: gurobi                                        # gurobi (used in the stud
 
 # --- countries ----------------------------------------------------------------------------------------------------------
 # Final OnSSET run 2 (and the figures/maps). Run 1, calibration and the AETOS demand always cover every country that has a
-# cluster file in onsset/clusters. For the whole continent: list every ISO3 code (or the countries you want).
-countries: [NGA, ZMB]
+# cluster file in onsset/clusters; `all` does the same for run 2. For a subset list the ISO3 codes.
+countries: all          # all = every country with a cluster file (default); or a list, e.g. [NGA, ZMB]
 
 # --- input data (read-only originals, copied into onsset/ by scripts/stage_onsset_inputs.py) --------------------------------
 iea_clusters_dir:     /path/to/IEA/OnSSET/Input_data/CSVs      # <ISO3>_gis_inputs_updated.gz cluster files

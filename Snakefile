@@ -35,10 +35,11 @@ AETOS = config["aetos_repo"] + "/AETOS_Runner"
 CTS   = config.get("cts", [1, 2, 3])
 DEM   = config.get("dems", ["low", "high"])      # low = U4R1 residential only (codes 1_1_*), high = U5R3 + productive (2_0_*)
 TAX   = config.get("taxes", [0, 1])
-COUNTRIES = config.get("countries", ["NGA", "ZMB"])          # final run only
 STEPS = [2030, 2035, 2040]
 R = "runs"
 ALL_ISO = sorted(glob_wildcards("onsset/clusters/{iso}_gis_inputs_updated.gz").iso)   # run 1: every country with a cluster file
+_c = config.get("countries", "all")
+COUNTRIES = ALL_ISO if _c in ("all", None, []) else list(_c)                  # run 2 (final run): default every country with a cluster file; list ISO3 codes for a subset
 CODE1 = {"low": "1_1_0_0_1_0", "high": "2_0_0_0_1_0"}                                 # tax-free (3rd digit 0)
 CODE2 = lambda dem, tax: ("1_1_" if dem == "low" else "2_0_") + f"{tax}_0_1_0"        # tier_productive_gridCT_pv_cap_rollout
 RUNS  = [f"{d}_t{t}_ct{c}" for d in DEM for t in TAX for c in CTS]
@@ -207,7 +208,7 @@ rule stage_maps:
 rule plot_mix:                                          # capacity + generation bars of one AETOS run, both countries
     input: R + "/{run}/metrics/metrics_period.csv"
     output: touch(R + "/figures/{run}/.done")
-    params: cc = " ".join(_iso2[c].upper() for c in COUNTRIES if c in _iso2), names = " ".join(f"{_iso2[k].upper()}={v['name']}" for k, v in MAPS.items() if k in _iso2)
+    params: cc = " ".join(_iso2[c].upper() for c in ([c for c in COUNTRIES if c in MAPS] or COUNTRIES) if c in _iso2), names = " ".join(f"{_iso2[k].upper()}={v['name']}" for k, v in MAPS.items() if k in _iso2)
     shell: ENVX + "{PY} scripts/plot_mix.py --runs {R} --out {R}/figures --only {wildcards.run} --countries {params.cc} --names {params.names}"
 
 rule map:                                               # one OnSSET run-2 scenario: PNG per year + slim settlement CSV for QGIS
