@@ -70,6 +70,8 @@ Subsets: `--config countries=[ZMB] cts=[1] dems=[low] taxes=[0]`. By default (`c
 | `runs/<dem>_t<tax>_ct<ct>/` | AETOS scenario data, results and metrics (generation mix, LCOE, emission factor, renewable shares) |
 | `runs/figures/`, `runs/maps/` | capacity / generation bar charts and technology maps |
 
+The scripts and their order of use are described in [SCRIPTS.md](SCRIPTS.md).
+
 ## Method in brief
 * **Run 1** (grid-only seeds from the AETOS baseline) gives the settlements that connect to the grid; their incremental
   electricity demand is cumulated over the steps 2030/35/40, interpolated linearly by year and added to the AETOS demand.
